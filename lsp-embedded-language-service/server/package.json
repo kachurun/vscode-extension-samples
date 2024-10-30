@@ -1,6 +1,6 @@
 {
-	"name": "lsp-sample-server",
-	"description": "Example implementation of a language server in node.",
+	"name": "riot-language-server",
+	"description": "Language server for Riot components",
 	"version": "1.0.0",
 	"author": "Microsoft Corporation",
 	"license": "MIT",
@@ -12,10 +12,12 @@
 		"url": "https://github.com/Microsoft/vscode-extension-samples"
 	},
 	"dependencies": {
-		"vscode-css-languageservice": "^4.1.1",
-		"vscode-html-languageservice": "^3.0.3",
-		"vscode-languageserver": "^6.1.1",
-		"vscode-languageserver-textdocument": "^1.0.1"
+		"vscode-css-languageservice": "^6.0.1",
+		"vscode-html-languageservice": "^5.0.0",
+		"vscode-languageserver": "^8.1.0",
+		"vscode-languageserver-textdocument": "^1.0.8",
+		"typescript": "^5.0.0",
+		"typescript-language-server": "^4.3.3"
 	},
-	"scripts": {}
+	"scripts": { }
 }
